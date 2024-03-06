@@ -14,11 +14,11 @@ datapackage:
       fields:
       - name: Year
         type: date
-        name: Month
+      - name: Month
         type: string
-        name: Date
+      - name: Date
         type: date
-        name: CPI
+      - name: CPI
         type: number
 ---
 
