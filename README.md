@@ -1,20 +1,24 @@
 ---
 datapackage:
-  title: Dataset Template
+  title: Consumer Price Index (CPI)
   description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
-  - path: data.csv
-    title: C02 PPM per decade
-    name: c02-per-decade
+  - path: cpi_inflation.csv
+    title: CPI (12-Month Change (%))
+    name: cpi-inflation-bermuda
     format: csv
     schema:
       fields:
-      - name: year
+      - name: Year
         type: date
-      - name: co2
+        name: Month
+        type: string
+        name: Date
+        type: date
+        name: CPI
         type: number
 ---
 
@@ -22,13 +26,15 @@ Here's some text.
 
 You can add as much text as you like.
 
+<LineChart
+  data="./cpi_inflation.csv"
+  title="CPI (12-month change %)"
+  xAxis="Date"
+  yAxis="CPI"
+/>
+
 The data files will be automatically displayed here.
 
 We can add a chart:
 
-<LineChart
-  data="./data.csv"
-  title="C02 per decade"
-  xAxis="year"
-  yAxis="co2"
-/>
+
