@@ -16,7 +16,7 @@ datapackage:
         type: date
       - name: Month
         type: string
-      - name: Date
+      - name: Datey
         type: date
       - name: CPI
         type: number
@@ -29,12 +29,10 @@ You can add as much text as you like.
 <LineChart
   data="./cpi_inflation.csv"
   title="CPI (12-month change %)"
-  xAxis="Date"
+  xAxis="Datey"
   yAxis="CPI"
 />
 
 The data files will be automatically displayed here.
-
-We can add a chart:
 
 
