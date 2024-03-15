@@ -31,7 +31,6 @@ You can add as much text as you like.
   title="CPI (12-month change %)"
   xAxis="Food"
   xAxisType="quantitative"
-  xAxisTimeUnit = "date"
   yAxis="CPI"
   yAxisType="quantitative"
 />
