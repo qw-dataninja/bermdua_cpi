@@ -30,9 +30,9 @@ You can add as much text as you like.
   data="./cpi_inflation.csv"
   title="CPI (12-month change %)"
   xAxis="Food"
-  xAxisType="quantitive"
+  xAxisType="quantitative"
   yAxis="CPI"
-  yAxisType="quantitive"
+  yAxisType="quantitative"
 />
 
 The data files will be automatically displayed here.
