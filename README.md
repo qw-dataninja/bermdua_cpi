@@ -29,7 +29,8 @@ You can add as much text as you like.
 <LineChart
   data="./cpi_inflation.csv"
   title="CPI (12-month change %)"
-  xAxis="Date"
+  xAxis="Food"
+  xAxisType="quantitative"
   xAxisTimeUnit = "date"
   yAxis="CPI"
   yAxisType="quantitative"
