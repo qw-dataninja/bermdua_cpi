@@ -30,6 +30,7 @@ You can add as much text as you like.
   data="cpi_inflation.csv"
   title="CPI (12-month change %)"
   xAxis="Food"
+  xAxisTimeUnit=""
   xAxisType="quantitative"
   yAxis="CPI"
   yAxisType="quantitative"
