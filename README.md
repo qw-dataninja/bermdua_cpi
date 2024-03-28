@@ -1,11 +1,10 @@
 ---
 datapackage:
   title: Consumer Price Index (CPI)
-  description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
   resources:
   - path: cpi_inflation.csv
     title: CPI (12-Month Change (%))
-    name: cpi-inflation-bermuda
+    name: cpi-inflation
     format: csv
     schema:
       fields:
