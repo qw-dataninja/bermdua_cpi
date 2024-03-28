@@ -27,10 +27,10 @@ Here's some text.
 You can add as much text as you like.
 
 <LineChart
-  data="data.csv"
+  data="cpi_inflation.csv"
   tite=" blah blah"
-  xAxis = "year"
-  yAxis = 'co2'
+  xAxis = "Year"
+  yAxis = 'CPI'
 />
 
 The data files will be automatically displayed here.
