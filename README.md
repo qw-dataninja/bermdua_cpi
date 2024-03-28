@@ -26,10 +26,11 @@ Here's some text.
 
 You can add as much text as you like.
 
-<Plotly
+<PlotlyBarChart
   data="data.csv"
-  -layout
-    tite=" blah blah"
+  tite=" blah blah"
+  xAxis = "year"
+  yAxis = 'co2'
 />
 
 The data files will be automatically displayed here.
