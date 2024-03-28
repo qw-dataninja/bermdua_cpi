@@ -28,9 +28,31 @@ You can add as much text as you like.
 
 <Plotly
   data="data.csv"
-  xAxis = "year"
-  yAxis = "co2"
-  title = "CO2"
+  layout = {
+      "title": {
+        "text": "Chart built with Plotly"
+      },
+      "xaxis": {
+        "title": {
+          "text": "x Axis"
+        },
+        "range": [
+          -1,
+          6
+        ],
+        "autorange": true
+      },
+      "yaxis": {
+        "title": {
+          "text": "y Axis"
+        },
+        "range": [
+          -1,
+          4
+        ],
+        "autorange": true
+      }
+    }
 />
 
 The data files will be automatically displayed here.
