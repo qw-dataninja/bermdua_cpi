@@ -16,6 +16,20 @@ datapackage:
         type: date
       - name: CPI
         type: number
+  - path: cpi_inflation.csv
+    title: CPI (12-Month Change (%))
+    name: cpi-inflation
+    format: csv
+    schema:
+      fields:
+      - name: Year
+        type: date
+      - name: Month
+        type: string
+      - name: Date
+        type: date
+      - name: CPI
+        type: number
 ---
 
 Here's some text.
