@@ -28,7 +28,7 @@ You can add as much text as you like.
 
 <Plotly
   data="cpi_inflation.csv"
-  tite=" blah blah"
+ layout = {"title": " blah blah"}
   xAxis = "Year"
   yAxis = 'CPI'
 />
