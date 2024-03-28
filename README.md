@@ -26,14 +26,11 @@ Here's some text.
 
 You can add as much text as you like.
 
-<LineChart
+<Plotly
   data="./data.csv"
-  title="CPI (12-month change %)"
-  xAxis="year"
-  AxisType="temporal"
-  xAxisTimeUnit = "year"
-  yAxis="co2"
-  yAxisType="quantitative"
+  xAxis = "year"
+  yAxis = "co2"
+  title = "CO2"
 />
 
 The data files will be automatically displayed here.
