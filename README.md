@@ -2,9 +2,6 @@
 datapackage:
   title: Consumer Price Index (CPI)
   description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
-  licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
-    title: Open Data Commons Public Domain Dedication and License v1.0
   resources:
   - path: cpi_inflation.csv
     title: CPI (12-Month Change (%))
