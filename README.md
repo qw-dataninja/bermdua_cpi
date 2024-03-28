@@ -30,6 +30,7 @@ You can add as much text as you like.
   rawCsv = "cpi_inflation.csv"
   xAxis="Date"
   yAxis="CPI"
+  title="test"
 />
 
 The data files will be automatically displayed here.
