@@ -26,7 +26,7 @@ Here's some text.
 
 You can add as much text as you like.
 
-<LineChart
+<Plotly
   data="cpi_inflation.csv"
   tite=" blah blah"
   xAxis = "Year"
