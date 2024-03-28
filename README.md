@@ -27,7 +27,7 @@ Here's some text.
 You can add as much text as you like.
 
 <Plotly
-  data="./data.csv"
+  url="./data.csv"
   xAxis = "year"
   yAxis = "co2"
   title = "CO2"
