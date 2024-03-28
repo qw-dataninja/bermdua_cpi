@@ -26,7 +26,7 @@ Here's some text.
 
 You can add as much text as you like.
 
-<Plotly
+<LineChart
   data="data.csv"
   tite=" blah blah"
   xAxis = "year"
