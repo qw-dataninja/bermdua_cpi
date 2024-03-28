@@ -27,7 +27,7 @@ Here's some text.
 You can add as much text as you like.
 
 <PlotlyLineChart
-  rawCsv = "cpi_inflation.csv"
+  rawCsv = "./cpi_inflation.csv"
   xAxis="Date"
   yAxis="CPI"
   title="test"
