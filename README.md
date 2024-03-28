@@ -28,7 +28,8 @@ You can add as much text as you like.
 
 <Plotly
   data="data.csv"
-  title=" blah blah"
+  -layout
+    tite=" blah blah"
 />
 
 The data files will be automatically displayed here.
